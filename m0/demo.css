@@ -1,0 +1,62 @@
+body{
+	background: #323332;
+}
+header, .b-wrap{
+	margin: 1rem 4rem 4rem;
+}
+.h-wrap{
+	
+}
+.posters{
+	margin-bottom: 0.2rem;
+}
+.posters img{
+	width: 100%;
+}
+.sign-icon{
+	text-align: center;
+	height: 0;
+	position: relative;
+	z-index: 2;
+}
+.sign-icon img{
+	width: 10rem;
+	height: 10rem;
+}
+header .sign{
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+}
+.sign a{
+	width: 50%;
+	background: rgb(99, 97, 98);
+	font: 3rem bold;
+	font-family: "黑体";
+	text-align: center;
+	line-height: 220%;
+}
+
+.b-wrap{
+	
+}
+.section1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.b-wrap section a {
+	display: inline-block;
+	width: 48%;
+
+}
+.b-wrap section a:nth-child(even){
+	/*margin-left: 3%;*/
+}
+
+.b-wrap section a img{
+	width: 100%;
+	/*height: 50%;*/
+}
