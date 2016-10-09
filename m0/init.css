@@ -1,0 +1,17 @@
+html{
+	font: 10px arial;
+}
+body{
+	font: 1.6rem;
+	margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a img, button{
+  border: 0;
+}
+li{
+  list-style-type: none;
+}
